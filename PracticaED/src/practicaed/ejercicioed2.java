@@ -12,21 +12,21 @@ public class ejercicioed2 {
 
         Scanner teclado = new Scanner(System.in);
 
-        int numero;
+        int num;
 
         System.out.print("\t Introduce un número de cuatro cifras: ");
 
-        numero = teclado.nextInt();
+        num = teclado.nextInt();
 
-        int primer = numero / 1000;
-        int segundo = (numero % 1000) / 100;
-        int tercer = ((numero % 1000) % 100) / 10;
-        int cuarto = ((numero % 1000) % 100) % 10;
+        int primer = num / 1000;
+        int segundo = (num % 1000) / 100;
+        int tercer = ((num % 1000) % 100) / 10;
+        int cuarto = ((num % 1000) % 100) % 10;
 
-        System.out.println("El primer dígito es: " + primer);
-        System.out.println("El segundo dígito es: " + segundo);
-        System.out.println("El tercer dígito es: " + tercer);
-        System.out.println("El cuarto dígito es: " + cuarto);
+        System.out.println("El primer dígito del numero introducido es: " + primer);
+        System.out.println("El segundo dígito del numero introducido es: " + segundo);
+        System.out.println("El tercer dígito del numero introducido es: " + tercer);
+        System.out.println("El cuarto dígito del numero introducido es: " + cuarto);
     }
 
 }
